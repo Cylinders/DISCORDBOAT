@@ -12,12 +12,12 @@ async def on_ready():
 
 @client.event
 async def on_member_join(member):
-    print(f'{member} has joined the server')
+    print(f'{member} has joined the Valorant Gamerz')
 
 
 @client.event
 async def on_member_remove(member):
-    print(f'{member} has left the server')
+    print(f'{member} decided to leave the Valorant Gamerz')
 
 
 @client.command()
@@ -34,7 +34,7 @@ async def _8ball(ctx, *, question):
         "Yes - definitely.",
         "You may rely on it.",
         "As I see it, yes.",
-        "Most likely.",
+        "sarva says Most likely.",
         "Outlook good.",
         "Yes.",
         "Signs point to yes.",
